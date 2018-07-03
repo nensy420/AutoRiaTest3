@@ -1,0 +1,91 @@
+2018-07-03 12:03:12 INFO  TestsAutoRia:31 - [INFO] Launch Auto Ria page
+2018-07-03 12:03:13 INFO  MainPageSearchBu:200 - Select 'B/U' radio button
+2018-07-03 12:03:13 INFO  AllureLogger:14 - Logged to allure: Select transport
+2018-07-03 12:03:14 INFO  AllureLogger:14 - Logged to allure: Select car brand
+2018-07-03 12:03:15 INFO  AllureLogger:14 - Logged to allure: Select car model
+2018-07-03 12:03:15 INFO  AllureLogger:14 - Logged to allure: Select region
+2018-07-03 12:03:16 INFO  MainPageSearchBu:166 - Select year from
+2018-07-03 12:03:16 INFO  AllureLogger:14 - Logged to allure: Select year to
+2018-07-03 12:03:16 INFO  MainPageSearchBu:174 - Select price from
+2018-07-03 12:03:16 INFO  AllureLogger:14 - Logged to allure: Select price to
+2018-07-03 12:03:20 INFO  AllureLogger:14 - Logged to allure: Click on submit button
+2018-07-03 12:03:21 INFO  AllureLogger:14 - Logged to allure: Get actual title
+2018-07-03 12:03:21 INFO  AllureLogger:14 - Logged to allure:  The results of search is loaded correctly
+2018-07-03 12:03:24 INFO  TestsAutoRia:38 - [INFO] Close Auto Ria
+2018-07-03 12:36:16 INFO  TestsAutoRia:37 - [INFO] Launch Auto Ria page
+2018-07-03 12:36:17 INFO  MainPageSearchBu:200 - Select 'B/U' radio button
+2018-07-03 12:36:17 INFO  AllureLogger:14 - Logged to allure: Select transport
+2018-07-03 12:36:18 INFO  AllureLogger:14 - Logged to allure: Select car brand
+2018-07-03 12:36:18 INFO  AllureLogger:14 - Logged to allure: Select car model
+2018-07-03 12:36:19 INFO  AllureLogger:14 - Logged to allure: Select region
+2018-07-03 12:36:19 INFO  MainPageSearchBu:166 - Select year from
+2018-07-03 12:36:20 INFO  AllureLogger:14 - Logged to allure: Select year to
+2018-07-03 12:36:20 INFO  MainPageSearchBu:174 - Select price from
+2018-07-03 12:36:20 INFO  AllureLogger:14 - Logged to allure: Select price to
+2018-07-03 12:36:23 INFO  AllureLogger:14 - Logged to allure: Click on submit button
+2018-07-03 12:36:23 INFO  AllureLogger:14 - Logged to allure: Get the message
+2018-07-03 12:36:23 INFO  TestsAutoRia:85 -  The error message is displayed
+2018-07-03 12:36:28 INFO  TestsAutoRia:44 - [INFO] Close Auto Ria
+2018-07-03 12:37:01 INFO  TestsAutoRia:37 - [INFO] Launch Auto Ria page
+2018-07-03 12:37:02 INFO  MainPageSearchNewCars:168 - Select 'New Auto' radio button
+2018-07-03 12:37:02 INFO  MainPageSearchNewCars:86 - Select transport
+2018-07-03 12:37:02 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:02 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:02 INFO  MainPageSearchNewCars:100 - Select car brand
+2018-07-03 12:37:02 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:03 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:03 INFO  MainPageSearchNewCars:119 - Select car model
+2018-07-03 12:37:04 INFO  MainPageSearchNewCars:131 - Select region
+2018-07-03 12:37:04 INFO  MainPageSearchNewCars:140 - Select year from
+2018-07-03 12:37:04 INFO  MainPageSearchNewCars:143 - Select year to
+2018-07-03 12:37:04 INFO  MainPageSearchNewCars:148 - Select price from
+2018-07-03 12:37:04 INFO  MainPageSearchNewCars:150 - Select price to
+2018-07-03 12:37:08 INFO  MainPageSearchNewCars:176 - Click on submit button
+2018-07-03 12:37:08 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:08 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:08 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:08 INFO  MainPageSearchNewCars:78 - Wait until element to be clickable
+2018-07-03 12:37:08 INFO  MainPageSearchNewCars:160 - Get actual title
+2018-07-03 12:37:08 INFO  TestsAutoRia:117 -  The results of search is loaded correctly
+2018-07-03 12:37:11 INFO  TestsAutoRia:44 - [INFO] Close Auto Ria
+2018-07-03 13:46:02 INFO  TestsAutoRia:40 -  Launch Auto Ria page
+2018-07-03 13:46:02 INFO  MainPageSearchBu:200 - Select 'B/U' radio button
+2018-07-03 13:46:02 INFO  AllureLogger:14 - Logged to allure: Select transport
+2018-07-03 13:46:03 INFO  AllureLogger:14 - Logged to allure: Select car brand
+2018-07-03 13:46:04 INFO  AllureLogger:14 - Logged to allure: Select car model
+2018-07-03 13:46:05 INFO  AllureLogger:14 - Logged to allure: Select region
+2018-07-03 13:46:05 INFO  MainPageSearchBu:166 - Select year from
+2018-07-03 13:46:05 INFO  AllureLogger:14 - Logged to allure: Select year to
+2018-07-03 13:46:05 INFO  MainPageSearchBu:174 - Select price from
+2018-07-03 13:46:05 INFO  AllureLogger:14 - Logged to allure: Select price to
+2018-07-03 13:46:08 INFO  AllureLogger:14 - Logged to allure: Click on submit button
+2018-07-03 13:46:31 INFO  TestsAutoRia:59 -  The search page was successfully load
+2018-07-03 13:46:40 INFO  TestsAutoRia:27 - Screenshot have been added to Allure Report.
+2018-07-03 14:00:58 INFO  TestsAutoRia:40 -  Launch Auto Ria page
+2018-07-03 14:00:58 INFO  MainPageSearchBu:200 - Select 'B/U' radio button
+2018-07-03 14:00:58 INFO  AllureLogger:14 - Logged to allure: Select transport
+2018-07-03 14:00:59 INFO  AllureLogger:14 - Logged to allure: Select car brand
+2018-07-03 14:01:00 INFO  AllureLogger:14 - Logged to allure: Select car model
+2018-07-03 14:01:01 INFO  AllureLogger:14 - Logged to allure: Select region
+2018-07-03 14:01:01 INFO  MainPageSearchBu:166 - Select year from
+2018-07-03 14:01:01 INFO  AllureLogger:14 - Logged to allure: Select year to
+2018-07-03 14:01:01 INFO  MainPageSearchBu:174 - Select price from
+2018-07-03 14:01:01 INFO  AllureLogger:14 - Logged to allure: Select price to
+2018-07-03 14:01:04 INFO  AllureLogger:14 - Logged to allure: Click on submit button
+2018-07-03 14:01:04 INFO  TestsAutoRia:59 -  The search page was successfully load
+2018-07-03 14:01:04 INFO  TestsAutoRia:27 - Screenshot have been added to Allure Report.
+2018-07-03 14:01:06 INFO  TestsAutoRia:47 - Close Auto Ria
+2018-07-03 14:12:45 INFO  TestsAutoRia:41 -  Launch Auto Ria page
+2018-07-03 14:12:45 INFO  MainPageSearchBu:199 - Select 'B/U' radio button
+2018-07-03 14:12:45 INFO  AllureLogger:15 - Logged to allure: Select transport
+2018-07-03 14:12:46 INFO  AllureLogger:15 - Logged to allure: Select car brand
+2018-07-03 14:12:47 INFO  AllureLogger:15 - Logged to allure: Select car model
+2018-07-03 14:12:48 INFO  AllureLogger:15 - Logged to allure: Select region
+2018-07-03 14:12:48 INFO  MainPageSearchBu:165 - Select year from
+2018-07-03 14:12:48 INFO  AllureLogger:15 - Logged to allure: Select year to
+2018-07-03 14:12:48 INFO  MainPageSearchBu:173 - Select price from
+2018-07-03 14:12:48 INFO  AllureLogger:15 - Logged to allure: Select price to
+2018-07-03 14:12:54 INFO  AllureLogger:15 - Logged to allure: Click on submit button
+2018-07-03 14:12:54 INFO  TestsAutoRia:60 -  The search page was successfully load
+2018-07-03 14:12:54 INFO  TestsAutoRia:28 - Screenshot have been added to Allure Report.
+2018-07-03 14:12:57 INFO  TestsAutoRia:48 - Close Auto Ria
