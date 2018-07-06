@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DataProviderExampleSuite" parallel="false">
+    <test name="Test1" >
+
+        <classes>
+            <class name="TestsAutoRia"/>
+        </classes>
+
+    </test>
+
+    <test name="Test2">
+
+    </test>
+</suite>

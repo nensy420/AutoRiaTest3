@@ -89,3 +89,31 @@
 2018-07-03 14:12:54 INFO  TestsAutoRia:60 -  The search page was successfully load
 2018-07-03 14:12:54 INFO  TestsAutoRia:28 - Screenshot have been added to Allure Report.
 2018-07-03 14:12:57 INFO  TestsAutoRia:48 - Close Auto Ria
+2018-07-04 15:10:37 INFO  AllureLogger:15 - Logged to allure:  Launch Auto Ria page
+2018-07-04 15:10:38 INFO  AllureLogger:15 - Logged to allure: Select 'B/U' radio button
+2018-07-04 15:10:38 INFO  AllureLogger:15 - Logged to allure: Select transport
+2018-07-04 15:10:39 INFO  AllureLogger:15 - Logged to allure: Select car brand
+2018-07-04 15:10:40 INFO  AllureLogger:15 - Logged to allure: Select car model
+2018-07-04 15:10:40 INFO  AllureLogger:15 - Logged to allure: Select region
+2018-07-04 15:10:40 INFO  AllureLogger:15 - Logged to allure: Select year from
+2018-07-04 15:10:41 INFO  AllureLogger:15 - Logged to allure: Select year to
+2018-07-04 15:10:41 INFO  AllureLogger:15 - Logged to allure: Select price from
+2018-07-04 15:10:41 INFO  AllureLogger:15 - Logged to allure: Select price to
+2018-07-04 15:10:44 INFO  AllureLogger:15 - Logged to allure: Click on submit button
+2018-07-04 15:10:44 INFO  AllureLogger:15 - Logged to allure:  The search page was successfully load
+2018-07-04 15:10:44 INFO  AllureLogger:15 - Logged to allure: Screenshot have been added to Allure Report.
+2018-07-04 15:10:46 INFO  AllureLogger:15 - Logged to allure: Close Auto Ria
+2018-07-04 15:19:58 INFO  AllureLogger:15 -  Launch Auto Ria page
+2018-07-04 15:19:59 INFO  AllureLogger:15 - Select 'B/U' radio button
+2018-07-04 15:19:59 INFO  AllureLogger:15 - Select transport
+2018-07-04 15:20:00 INFO  AllureLogger:15 - Select car brand
+2018-07-04 15:20:01 INFO  AllureLogger:15 - Select car model
+2018-07-04 15:20:02 INFO  AllureLogger:15 - Select region
+2018-07-04 15:20:02 INFO  AllureLogger:15 - Select year from
+2018-07-04 15:20:02 INFO  AllureLogger:15 - Select year to
+2018-07-04 15:20:02 INFO  AllureLogger:15 - Select price from
+2018-07-04 15:20:02 INFO  AllureLogger:15 - Select price to
+2018-07-04 15:20:08 INFO  AllureLogger:15 - Click on submit button
+2018-07-04 15:20:08 INFO  AllureLogger:15 -  The search page was successfully load
+2018-07-04 15:20:08 INFO  AllureLogger:15 - Screenshot have been added to Allure Report.
+2018-07-04 15:20:11 INFO  AllureLogger:15 - Close Auto Ria

@@ -1,1 +1,0 @@
-{"uuid":"fa2b50d9-aec4-4fea-99c0-ed0aa8a25fcc","name":"TestsAutoRia.closePage","description":"","start":1530618626357,"stop":1530618628554,"children":["f7ec996d-c13d-4001-b1e9-d020daef4f6d"],"afters":[{"name":"closePage","status":"passed","stage":"finished","description":"","start":1530618626358,"stop":1530618628554}]}

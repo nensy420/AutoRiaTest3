@@ -1,9 +1,10 @@
-import com.autoRia.pageObjects.AuthorizationCheck;
-import com.autoRia.pageObjects.MainPageSearchBu;
-import com.autoRia.pageObjects.MainPageSearchNewCars;
-import com.autoRia.statements.AllureLogger;
+import com.ria.objects.AuthorizationCheck;
+import com.ria.objects.MainPageHeadersLinks;
+import com.ria.objects.MainPageSearchBu;
+import com.ria.objects.MainPageSearchNewCars;
+import com.ria.statements.AllureLogger;
 import io.qameta.allure.Attachment;
-import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
@@ -19,6 +21,25 @@ import java.util.concurrent.TimeUnit;
 public class TestsAutoRia {
     private WebDriver driver;
     private String baseURL = "https://auto.ria.com/";
+
+    @DataProvider
+    public Object[] validDataOfSearch() {
+        return new Object[][]{
+                {"Легковые", "Audi", "Q7", "Киев", "2014", "2017", "2000", "50000"}
+    };
+    }
+
+
+
+    @DataProvider
+    public Object[] invalidDataOfSearch() {
+        return new Object[][]{
+                {"Легковые", "Audi", "Q7", "Киев", "2014", "2017", "20000", "50"},
+                {"Легковые", "BMW", "X5", "Киев", "2010", "2017", "20000", "10"}
+        };
+    }
+
+
 
 
     @Attachment(value = "Page screenshot", type = "image/png")
@@ -31,7 +52,7 @@ public class TestsAutoRia {
 
     @BeforeMethod
     public void openPage() {
-        System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "src\\test\\resourses\\drivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -48,10 +69,11 @@ public class TestsAutoRia {
     }
 
 
-    @Test()
-    public void checkDownloadPageTest(){
+    @Test(dataProvider = "validDataOfSearch")
+    public void checkDownloadPageTest(String transportName, String brandCarName, String modelName, String regionName, String yearFrom,String yearTo,String priceFrom,String priceTo)
+    {
         MainPageSearchBu search = new MainPageSearchBu(driver);
-        search.enterSearchParametersBu("Легковые", "Audi", "Q7", "Киев", "2014", "2017", "2000", "50000");
+        search.enterSearchParametersBu(transportName, brandCarName, modelName,  regionName,  yearFrom, yearTo, priceFrom, priceTo);
         String actualTitle = driver.getTitle();
         String expectedTitle = "AUTO.RIA - Базар авто №1: автосалоны, продажа авто б.у. и новых. Автопоиск по";
         Assert.assertTrue(actualTitle.contains(expectedTitle),"\"ERROR: The search page was not load");
@@ -61,23 +83,25 @@ public class TestsAutoRia {
 
     }
 
-    @Test()
-    public void checkResultsOfSearchTestBu(){
+    @Test(dataProvider = "validDataOfSearch")
+    public void checkResultsOfSearchTestBu(String transportName, String brandCarName, String modelName, String regionName, String yearFrom,String yearTo,String priceFrom,String priceTo)
+    {
         MainPageSearchBu search = new MainPageSearchBu(driver);
-        search.enterSearchParametersBu("Легковые", "Audi", "Q7", "Киев", "2014", "2017", "2000", "50000");
-        String expectedTitle = "Audi Q7";
-        Assert.assertTrue(search.resultsOfSearch().contains(expectedTitle),"ERROR: " + expectedTitle + " was not found on the Page");
+        search.enterSearchParametersBu(transportName, brandCarName, modelName,  regionName,  yearFrom, yearTo, priceFrom, priceTo);
+        Assert.assertTrue(search.checkIfTHePageDownload("Audi Q7","https://auto.ria.com/search/",driver.findElement(By.xpath("//div[@class='app-content']//following-sibling::div[@id='topFilter']/a"))),"ERROR:The page was not load");
         AllureLogger.logToAllure(" The results of search is loaded correctly");
         saveScreenshot(driver);
 
     }
 
-    @Test()
-    public void invalidDataSearchTest(){
+    @Test(dataProvider = "invalidDataOfSearch")
+    public void invalidDataSearchTest (String transportName, String brandCarName, String modelName, String regionName, String yearFrom,String yearTo,String priceFrom,String priceTo)
+    {
         MainPageSearchBu search = new MainPageSearchBu(driver);
-        search.enterSearchParametersBu("Легковые", "Audi", "Q7", "Киев", "2014", "2017", "5000", "2");
+        search.enterSearchParametersBu(transportName, brandCarName, modelName,  regionName,  yearFrom, yearTo, priceFrom, priceTo);
         String expectedErrorMessage ="Объявлений не найдено";
         String actualErrorMessage = search.errorMessage();
+        System.out.println(actualErrorMessage);
         Assert.assertTrue(actualErrorMessage.contains(expectedErrorMessage),"ERROR: The error message wasn't load");
         saveScreenshot(driver);
         AllureLogger.logToAllure(" The error message is displayed");
@@ -106,11 +130,14 @@ public class TestsAutoRia {
         saveScreenshot(driver);
     }
 
-//    @Test()
-//    public void checkHeadersLink(){
-//        MainPageHeadersLinks link = new MainPageHeadersLinks(driver);
-//        link.checkTheLoadPage();
-//    }
+    @Test()
+    public void checkHeadersLink(){
+        MainPageHeadersLinks link = new MainPageHeadersLinks(driver);
+        String expectedTitle = "RIA.com ™ — доска бесплатных частных объявлений Украины";
+        Assert.assertTrue(link.checkTheLoadPage().contains(expectedTitle), "\"ERROR: The Ria.come page not loaded");
+        AllureLogger.logToAllure(" The Ria.come page was successfully load after clicking on link");
+        saveScreenshot(driver);
+    }
 
  }
 
