@@ -1,0 +1,139 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 9
+  },
+  "time" : {
+    "minDuration" : 744,
+    "maxDuration" : 13316,
+    "sumDuration" : 53219,
+    "start" : 1531142112650,
+    "stop" : 1531142251400,
+    "duration" : 138750
+  },
+  "children" : [ {
+    "uid" : "5f174810be66c8fa",
+    "name" : "TestsAutoRia",
+    "time" : {
+      "minDuration" : 744,
+      "maxDuration" : 13316,
+      "sumDuration" : 53219,
+      "start" : 1531142112650,
+      "stop" : 1531142251400,
+      "duration" : 138750
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "95e09778e9101930",
+      "name" : "checkDownloadPageTest",
+      "time" : {
+        "start" : 1531142137541,
+        "stop" : 1531142145215,
+        "duration" : 7674
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ff18328a6cf5e17d",
+      "name" : "apiTestRestAssure",
+      "time" : {
+        "start" : 1531142124645,
+        "stop" : 1531142127553,
+        "duration" : 2908
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "a280915b86bca750",
+      "name" : "registrationWithInvalidDataTest",
+      "time" : {
+        "start" : 1531142238084,
+        "stop" : 1531142251400,
+        "duration" : 13316
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "4ffce79836a7cf46",
+      "name" : "invalidDataSearchTest",
+      "time" : {
+        "start" : 1531142202390,
+        "stop" : 1531142209775,
+        "duration" : 7385
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "229b68b956cc27cb",
+      "name" : "checkResultsOfSearchTestBu",
+      "time" : {
+        "start" : 1531142167081,
+        "stop" : 1531142174400,
+        "duration" : 7319
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "9f000a3940c7b21b",
+      "name" : "checkHeadersLink",
+      "time" : {
+        "start" : 1531142156035,
+        "stop" : 1531142157631,
+        "duration" : 1596
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "14cc71c012e4d86",
+      "name" : "checkResultsOfSearchTestNew",
+      "time" : {
+        "start" : 1531142186811,
+        "stop" : 1531142192272,
+        "duration" : 5461
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "44daee3dcb0a50ed",
+      "name" : "invalidDataSearchTest",
+      "time" : {
+        "start" : 1531142222104,
+        "stop" : 1531142228920,
+        "duration" : 6816
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "86c108fb6413d47d",
+      "name" : "apiTest",
+      "time" : {
+        "start" : 1531142112650,
+        "stop" : 1531142113394,
+        "duration" : 744
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

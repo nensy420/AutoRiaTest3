@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="151850" started-at="2018-07-09T13:15:01Z" finished-at="2018-07-09T13:17:33Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="151850" started-at="2018-07-09T13:15:01Z" finished-at="2018-07-09T13:17:33Z">
+      <class name="TestsAutoRia">
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="10580" started-at="2018-07-09T13:15:01Z" finished-at="2018-07-09T13:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="apiTest()[pri:0, instance:TestsAutoRia@2c3dec30]" name="apiTest" duration-ms="826" started-at="2018-07-09T13:15:12Z" finished-at="2018-07-09T13:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTest -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="2453" started-at="2018-07-09T13:15:13Z" finished-at="2018-07-09T13:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="8760" started-at="2018-07-09T13:15:15Z" finished-at="2018-07-09T13:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="apiTestRestAssure()[pri:0, instance:TestsAutoRia@2c3dec30]" name="apiTestRestAssure" duration-ms="2908" started-at="2018-07-09T13:15:24Z" finished-at="2018-07-09T13:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTestRestAssure -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="1978" started-at="2018-07-09T13:15:27Z" finished-at="2018-07-09T13:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="7977" started-at="2018-07-09T13:15:29Z" finished-at="2018-07-09T13:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="checkDownloadPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestsAutoRia@2c3dec30]" name="checkDownloadPageTest" duration-ms="7679" started-at="2018-07-09T13:15:37Z" data-provider="validDataOfSearch" finished-at="2018-07-09T13:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Легковые]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Audi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Q7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Киев]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2014]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDownloadPageTest -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="2315" started-at="2018-07-09T13:15:45Z" finished-at="2018-07-09T13:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="8478" started-at="2018-07-09T13:15:47Z" finished-at="2018-07-09T13:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="checkHeadersLink()[pri:0, instance:TestsAutoRia@2c3dec30]" name="checkHeadersLink" duration-ms="1598" started-at="2018-07-09T13:15:56Z" finished-at="2018-07-09T13:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeadersLink -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="1986" started-at="2018-07-09T13:15:57Z" finished-at="2018-07-09T13:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="7440" started-at="2018-07-09T13:15:59Z" finished-at="2018-07-09T13:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="checkResultsOfSearchTestBu(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestsAutoRia@2c3dec30]" name="checkResultsOfSearchTestBu" duration-ms="7326" started-at="2018-07-09T13:16:07Z" data-provider="validDataOfSearch" finished-at="2018-07-09T13:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Легковые]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Audi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Q7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Киев]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2014]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsOfSearchTestBu -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="2230" started-at="2018-07-09T13:16:14Z" finished-at="2018-07-09T13:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="10163" started-at="2018-07-09T13:16:16Z" finished-at="2018-07-09T13:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="checkResultsOfSearchTestNew()[pri:0, instance:TestsAutoRia@2c3dec30]" name="checkResultsOfSearchTestNew" duration-ms="5463" started-at="2018-07-09T13:16:26Z" finished-at="2018-07-09T13:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsOfSearchTestNew -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="1968" started-at="2018-07-09T13:16:32Z" finished-at="2018-07-09T13:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="8127" started-at="2018-07-09T13:16:34Z" finished-at="2018-07-09T13:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="invalidDataSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestsAutoRia@2c3dec30]" name="invalidDataSearchTest" duration-ms="7385" started-at="2018-07-09T13:16:42Z" data-provider="invalidDataOfSearch" finished-at="2018-07-09T13:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Легковые]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Audi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Q7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Киев]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2014]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataSearchTest -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="2220" started-at="2018-07-09T13:16:49Z" finished-at="2018-07-09T13:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="10099" started-at="2018-07-09T13:16:52Z" finished-at="2018-07-09T13:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="invalidDataSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestsAutoRia@2c3dec30]" name="invalidDataSearchTest" duration-ms="6818" started-at="2018-07-09T13:17:02Z" data-provider="invalidDataOfSearch" finished-at="2018-07-09T13:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Легковые]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[X5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Киев]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataSearchTest -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="2220" started-at="2018-07-09T13:17:08Z" finished-at="2018-07-09T13:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="openPage" is-config="true" duration-ms="6918" started-at="2018-07-09T13:17:11Z" finished-at="2018-07-09T13:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="registrationWithInvalidDataTest()[pri:0, instance:TestsAutoRia@2c3dec30]" name="registrationWithInvalidDataTest" duration-ms="13310" started-at="2018-07-09T13:17:18Z" finished-at="2018-07-09T13:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithInvalidDataTest -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:TestsAutoRia@2c3dec30]" name="closePage" is-config="true" duration-ms="2150" started-at="2018-07-09T13:17:31Z" finished-at="2018-07-09T13:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- TestsAutoRia -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

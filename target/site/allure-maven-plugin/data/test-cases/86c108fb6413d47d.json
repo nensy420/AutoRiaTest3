@@ -1,0 +1,111 @@
+{
+  "uid" : "86c108fb6413d47d",
+  "name" : "apiTest",
+  "fullName" : "TestsAutoRia.apiTest",
+  "historyId" : "eacd78f661643ddec44e40697434ede9",
+  "time" : {
+    "start" : 1531142112650,
+    "stop" : 1531142113394,
+    "duration" : 744
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1531142101800,
+      "stop" : 1531142112361,
+      "duration" : 10561
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Launch Auto Ria page",
+      "time" : {
+        "start" : 1531142112342,
+        "stop" : 1531142112355,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "log",
+        "value" : " Launch Auto Ria page"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "afterStages" : [ {
+    "name" : "closePage",
+    "time" : {
+      "start" : 1531142113418,
+      "stop" : 1531142115871,
+      "duration" : 2453
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close Auto Ria",
+      "time" : {
+        "start" : 1531142115871,
+        "stop" : 1531142115871,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "log",
+        "value" : "Close Auto Ria"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testClass",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "host",
+    "value" : "EPUAVINW0145"
+  }, {
+    "name" : "thread",
+    "value" : "1320@EPUAVINW0145.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}
