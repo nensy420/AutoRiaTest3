@@ -1,0 +1,241 @@
+{
+  "uid" : "11502cbf089fcb2d",
+  "name" : "registrationWithInvalidDataTest",
+  "fullName" : "TestsAutoRia.registrationWithInvalidDataTest",
+  "historyId" : "9caf7a68534ae1a2081d51fc879753a9",
+  "time" : {
+    "start" : 1531831825595,
+    "stop" : 1531831839101,
+    "duration" : 13506
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1531831817961,
+      "stop" : 1531831825591,
+      "duration" : 7630
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Launch Auto Ria page",
+      "time" : {
+        "start" : 1531831825591,
+        "stop" : 1531831825591,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " Launch Auto Ria page"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Click on enter to",
+      "time" : {
+        "start" : 1531831827901,
+        "stop" : 1531831827901,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Click on enter to"
+      } ]
+    }, {
+      "name" : "Switch to frame",
+      "time" : {
+        "start" : 1531831837971,
+        "stop" : 1531831837971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Switch to frame"
+      } ]
+    }, {
+      "name" : "Click on registration link",
+      "time" : {
+        "start" : 1531831838351,
+        "stop" : 1531831838355,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Click on registration link"
+      } ]
+    }, {
+      "name" : "Input the telephone number",
+      "time" : {
+        "start" : 1531831838441,
+        "stop" : 1531831838441,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Input the telephone number"
+      } ]
+    }, {
+      "name" : " Click on the continue button",
+      "time" : {
+        "start" : 1531831839071,
+        "stop" : 1531831839071,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " Click on the continue button"
+      } ]
+    }, {
+      "name" : " Get the message",
+      "time" : {
+        "start" : 1531831839101,
+        "stop" : 1531831839101,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " Get the message"
+      } ]
+    }, {
+      "name" : " The registration was failed",
+      "time" : {
+        "start" : 1531831839101,
+        "stop" : 1531831839101,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " The registration was failed"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "closePage",
+    "time" : {
+      "start" : 1531831839101,
+      "stop" : 1531831841114,
+      "duration" : 2013
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close Auto Ria",
+      "time" : {
+        "start" : 1531831841112,
+        "stop" : 1531831841114,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Close Auto Ria"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testClass",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationWithInvalidDataTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "host",
+    "value" : "EPUAVINW0145"
+  }, {
+    "name" : "thread",
+    "value" : "9348@EPUAVINW0145.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

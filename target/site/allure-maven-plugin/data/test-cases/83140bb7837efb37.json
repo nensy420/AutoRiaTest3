@@ -1,0 +1,350 @@
+{
+  "uid" : "83140bb7837efb37",
+  "name" : "invalidDataSearchTest",
+  "fullName" : "TestsAutoRia.invalidDataSearchTest",
+  "historyId" : "908caf4c5642e2c2007f6191c4f154a7",
+  "time" : {
+    "start" : 1531831808815,
+    "stop" : 1531831815831,
+    "duration" : 7016
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1531831801081,
+      "stop" : 1531831808811,
+      "duration" : 7730
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Launch Auto Ria page",
+      "time" : {
+        "start" : 1531831808811,
+        "stop" : 1531831808811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " Launch Auto Ria page"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Select 'B/U' radio button",
+      "time" : {
+        "start" : 1531831809092,
+        "stop" : 1531831809092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select 'B/U' radio button"
+      } ]
+    }, {
+      "name" : "Select transport",
+      "time" : {
+        "start" : 1531831809191,
+        "stop" : 1531831809191,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select transport"
+      } ]
+    }, {
+      "name" : "Select car brand",
+      "time" : {
+        "start" : 1531831809955,
+        "stop" : 1531831809955,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select car brand"
+      } ]
+    }, {
+      "name" : "Select car model",
+      "time" : {
+        "start" : 1531831811531,
+        "stop" : 1531831811531,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select car model"
+      } ]
+    }, {
+      "name" : "Select region",
+      "time" : {
+        "start" : 1531831812241,
+        "stop" : 1531831812241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select region"
+      } ]
+    }, {
+      "name" : "Select year from",
+      "time" : {
+        "start" : 1531831812516,
+        "stop" : 1531831812516,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select year from"
+      } ]
+    }, {
+      "name" : "Select year to",
+      "time" : {
+        "start" : 1531831812792,
+        "stop" : 1531831812792,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select year to"
+      } ]
+    }, {
+      "name" : "Select price from",
+      "time" : {
+        "start" : 1531831812844,
+        "stop" : 1531831812844,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select price from"
+      } ]
+    }, {
+      "name" : "Select price to",
+      "time" : {
+        "start" : 1531831812881,
+        "stop" : 1531831812881,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select price to"
+      } ]
+    }, {
+      "name" : "Click on submit button",
+      "time" : {
+        "start" : 1531831815211,
+        "stop" : 1531831815211,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Click on submit button"
+      } ]
+    }, {
+      "name" : "Get the message",
+      "time" : {
+        "start" : 1531831815831,
+        "stop" : 1531831815831,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Get the message"
+      } ]
+    }, {
+      "name" : " The error message is displayed",
+      "time" : {
+        "start" : 1531831815831,
+        "stop" : 1531831815831,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " The error message is displayed"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ {
+    "name" : "closePage",
+    "time" : {
+      "start" : 1531831815844,
+      "stop" : 1531831817961,
+      "duration" : 2117
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close Auto Ria",
+      "time" : {
+        "start" : 1531831817961,
+        "stop" : 1531831817961,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Close Auto Ria"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testClass",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidDataSearchTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "host",
+    "value" : "EPUAVINW0145"
+  }, {
+    "name" : "thread",
+    "value" : "9348@EPUAVINW0145.main(1)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Легковые"
+  }, {
+    "name" : "arg1",
+    "value" : "BMW"
+  }, {
+    "name" : "arg2",
+    "value" : "X5"
+  }, {
+    "name" : "arg3",
+    "value" : "Киев"
+  }, {
+    "name" : "arg4",
+    "value" : "2010"
+  }, {
+    "name" : "arg5",
+    "value" : "2017"
+  }, {
+    "name" : "arg6",
+    "value" : "20000"
+  }, {
+    "name" : "arg7",
+    "value" : "10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

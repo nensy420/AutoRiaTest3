@@ -1,0 +1,384 @@
+{
+  "uid" : "6e630f7eecdc37ce",
+  "name" : "checkDownloadPageTest",
+  "fullName" : "TestsAutoRia.checkDownloadPageTest",
+  "historyId" : "2a7f462816203087f27bb74cb4582b40",
+  "time" : {
+    "start" : 1531831733482,
+    "stop" : 1531831740552,
+    "duration" : 7070
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1531831723245,
+      "stop" : 1531831733465,
+      "duration" : 10220
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Launch Auto Ria page",
+      "time" : {
+        "start" : 1531831733445,
+        "stop" : 1531831733461,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " Launch Auto Ria page"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Select 'B/U' radio button",
+      "time" : {
+        "start" : 1531831733912,
+        "stop" : 1531831733922,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select 'B/U' radio button"
+      } ]
+    }, {
+      "name" : "Select transport",
+      "time" : {
+        "start" : 1531831734036,
+        "stop" : 1531831734036,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select transport"
+      } ]
+    }, {
+      "name" : "Select car brand",
+      "time" : {
+        "start" : 1531831734916,
+        "stop" : 1531831734921,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select car brand"
+      } ]
+    }, {
+      "name" : "Select car model",
+      "time" : {
+        "start" : 1531831735811,
+        "stop" : 1531831735811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select car model"
+      } ]
+    }, {
+      "name" : "Select region",
+      "time" : {
+        "start" : 1531831736402,
+        "stop" : 1531831736402,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select region"
+      } ]
+    }, {
+      "name" : "Select year from",
+      "time" : {
+        "start" : 1531831736682,
+        "stop" : 1531831736682,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select year from"
+      } ]
+    }, {
+      "name" : "Select year to",
+      "time" : {
+        "start" : 1531831736982,
+        "stop" : 1531831736982,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select year to"
+      } ]
+    }, {
+      "name" : "Select price from",
+      "time" : {
+        "start" : 1531831737012,
+        "stop" : 1531831737012,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select price from"
+      } ]
+    }, {
+      "name" : "Select price to",
+      "time" : {
+        "start" : 1531831737031,
+        "stop" : 1531831737031,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Select price to"
+      } ]
+    }, {
+      "name" : "Click on submit button",
+      "time" : {
+        "start" : 1531831739441,
+        "stop" : 1531831739441,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Click on submit button"
+      } ]
+    }, {
+      "name" : "Get actual title",
+      "time" : {
+        "start" : 1531831740521,
+        "stop" : 1531831740521,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Get actual title"
+      } ]
+    }, {
+      "name" : "Get current URL",
+      "time" : {
+        "start" : 1531831740531,
+        "stop" : 1531831740531,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Get current URL"
+      } ]
+    }, {
+      "name" : "Check the parameters that match that the page loaded",
+      "time" : {
+        "start" : 1531831740552,
+        "stop" : 1531831740552,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Check the parameters that match that the page loaded"
+      } ]
+    }, {
+      "name" : " The results of search is loaded correctly",
+      "time" : {
+        "start" : 1531831740552,
+        "stop" : 1531831740552,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : " The results of search is loaded correctly"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 14
+  },
+  "afterStages" : [ {
+    "name" : "closePage",
+    "time" : {
+      "start" : 1531831740561,
+      "stop" : 1531831742686,
+      "duration" : 2125
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close Auto Ria",
+      "time" : {
+        "start" : 1531831742682,
+        "stop" : 1531831742686,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logger",
+        "value" : "Close Auto Ria"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testClass",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkDownloadPageTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsAutoRia"
+  }, {
+    "name" : "host",
+    "value" : "EPUAVINW0145"
+  }, {
+    "name" : "thread",
+    "value" : "9348@EPUAVINW0145.main(1)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Легковые"
+  }, {
+    "name" : "arg1",
+    "value" : "Audi"
+  }, {
+    "name" : "arg2",
+    "value" : "Q7"
+  }, {
+    "name" : "arg3",
+    "value" : "Киев"
+  }, {
+    "name" : "arg4",
+    "value" : "2014"
+  }, {
+    "name" : "arg5",
+    "value" : "2017"
+  }, {
+    "name" : "arg6",
+    "value" : "2000"
+  }, {
+    "name" : "arg7",
+    "value" : "50000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

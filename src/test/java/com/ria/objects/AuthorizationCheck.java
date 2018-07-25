@@ -1,7 +1,8 @@
 package com.ria.objects;
 
 
-import com.ria.statements.AllureLogger;
+
+import io.qameta.allure.Step;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +20,6 @@ public class AuthorizationCheck {
 
     @FindBy(xpath = "//form[@id='login-form']/following-sibling::div[@class='login-link']/a")
     private WebElement registerLink;
-
 
     @FindBy(xpath = "//div[@class='login-rows']//following-sibling::input")
     private WebElement telephoneField;
@@ -47,36 +47,36 @@ public class AuthorizationCheck {
         return element;
     }
 
-    private void clickOnEnterAndSwitchToFrame(){
+    public void clickOnEnterAndSwitchToFrame(){
         waitTime(enterTo).click();
-        AllureLogger.logToAllure("Click on enter to");
+        logToAllure("Click on enter to");
         driver.switchTo().frame("login_frame");
-        AllureLogger.logToAllure("Switch to frame");
-
+        logToAllure("Switch to frame");
     }
 
-    private void clickOnRegister(){
+    public void clickOnRegister(){
          waitTime(registerLink).click();
-        AllureLogger.logToAllure("Click on registration link");
-
+         logToAllure("Click on registration link");
     }
 
-    private void inputTelephone(String number){
+    public void inputTelephone(String number){
        waitTime(telephoneField).sendKeys(number);
-       AllureLogger.logToAllure("Input the telephone number");
-
+       logToAllure("Input the telephone number");
     }
 
     private void clickOnContinueButton(){
         waitTime(continueButton).click();
-        AllureLogger.logToAllure(" Click on the continue button");
+        logToAllure(" Click on the continue button");
+    }
 
+    @Step("{0}")
+    private static void logToAllure(String logger) {
+        log.info(logger);
     }
 
     public AuthorizationCheck(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
-
     }
 
     public void registration(String number){
@@ -88,14 +88,8 @@ public class AuthorizationCheck {
 
     public String getErrorMessageRegistration(){
         String attantionMessage = fieldAttantion.getAttribute("innerHTML");
-        AllureLogger.logToAllure(" Get the message");
-
+        logToAllure(" Get the message");
         return attantionMessage;
-
     }
-
-
-
-
 
 }

@@ -1,0 +1,49 @@
+{
+  "uid" : "3de828dc5097654",
+  "name" : "apiTestRestAssured3",
+  "fullName" : "ApiTest.apiTestRestAssured3",
+  "historyId" : "25e135f13097c1a48338115770297092",
+  "time" : {
+    "start" : 1531831722921,
+    "stop" : 1531831723231,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiTestRestAssured3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ApiTest"
+  }, {
+    "name" : "host",
+    "value" : "EPUAVINW0145"
+  }, {
+    "name" : "thread",
+    "value" : "9348@EPUAVINW0145.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

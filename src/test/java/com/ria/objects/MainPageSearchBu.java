@@ -1,7 +1,10 @@
 package com.ria.objects;
 
 
-import com.ria.statements.AllureLogger;
+
+import io.qameta.allure.Step;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
 
 
 import java.util.List;
@@ -68,9 +71,7 @@ public class MainPageSearchBu {
     @FindBy(xpath = "//input[@id='naRadioType']/following-sibling::label[@for='naRadioType']")
     private WebElement newRadioButton;
 
-//    private By popupListElement(String text) {
-//        return By.xpath(String.format("//select[@id='marks']/option[contains(text(),'%s')]", text));
-//    }
+    private static final Logger log = LogManager.getLogger(MainPageSearchBu.class);
 
     private WebElement waitTime(WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -78,50 +79,38 @@ public class MainPageSearchBu {
         return element;
     }
 
-
     private  void searchTransport(String transportName) {
         Select selectTransportField = new Select(transportField);
         selectTransportField.selectByVisibleText(transportName);
-        AllureLogger.logToAllure("Select transport");
-
+        logToAllure("Select transport");
     }
-
 
     private void searchBrandCarBu(String nameBrandCar) {
         waitTime(brandCarFieldBu).click();
         List<WebElement> listBrandCar = brandCarList;
         for (WebElement elm : listBrandCar)
-
         {
             String dataValue = elm.getAttribute("innerHTML");
 
             if (dataValue.contains(nameBrandCar)) {
                 waitTime(elm).click();
-                AllureLogger.logToAllure("Select car brand");
+                logToAllure("Select car brand");
                 return;
             }
-
-
         }
-
-
     }
 
     private void searchModelCarBu(String nameModelCar){
         waitTime(modelCarFieldBu).click();
         List<WebElement> listModelCar = modelCarList;
         for (WebElement elm : listModelCar )
-
         {
             String dataValue = elm.getAttribute("innerHTML");
-
             if (dataValue.contains(nameModelCar)) {
                 waitTime(elm).click();
-                AllureLogger.logToAllure("Select car model");
+                logToAllure("Select car model");
                 return;
             }
-
-
         }
     }
 
@@ -129,34 +118,30 @@ public class MainPageSearchBu {
         waitTime(regionFieldBu).click();
         List<WebElement> listRegions = regionList;
         for (WebElement elm : listRegions )
-
         {
             String dataValue = elm.getAttribute("innerHTML");
-
             if (dataValue.contains(nameRegion)) {
                 waitTime(elm).click();
-                AllureLogger.logToAllure("Select region");
+                logToAllure("Select region");
                 return;
             }
-
-
         }
     }
 
     private void selectYear(String from, String to) {
         Select yearSelectFrom = new Select(yearFromField);
         yearSelectFrom.selectByVisibleText(from);
-        AllureLogger.logToAllure("Select year from");
+        logToAllure("Select year from");
         Select yearSelectTo = new Select(yearToField);
         yearSelectTo.selectByVisibleText(to);
-        AllureLogger.logToAllure("Select year to");
+        logToAllure("Select year to");
     }
 
     private void enterPrice(String priceFrom, String priceTo) {
         priceFromField.sendKeys(priceFrom);
-        AllureLogger.logToAllure("Select price from");
+        logToAllure("Select price from");
         priceToField.sendKeys(priceTo);
-        AllureLogger.logToAllure("Select price to");
+        logToAllure("Select price to");
 
     }
 
@@ -167,40 +152,44 @@ public class MainPageSearchBu {
             waitTime(elm);
             actualTitle = elm.getAttribute("title");
         }
-        AllureLogger.logToAllure("Get actual title");
+        logToAllure("Get actual title");
         return actualTitle;
-
     }
+
     private String getCurrentUrl(){
         String actualCurrentUrl = driver.getCurrentUrl();
-        AllureLogger.logToAllure("Get current URL");
+        logToAllure("Get current URL");
         return actualCurrentUrl;
+    }
+
+    @Step("{0}")
+    private static void logToAllure(String logger) {
+        log.info(logger);
     }
 
     public MainPageSearchBu(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
-    }
 
+    }
 
     public String errorMessage(){
         String attantionMessage = mainPageSearchErrorMessage.getAttribute("innerHTML");
-        AllureLogger.logToAllure("Get the message");
+        logToAllure("Get the message");
         return attantionMessage;
     }
 
     public boolean checkIfTHePageDownload(String expectedTitle,String expectedURL,WebElement element){
 
         if((resultsOfSearch().contains(expectedTitle)) && (getCurrentUrl().contains(expectedURL))&& element.isDisplayed()){
-            AllureLogger.logToAllure( "Check the parameters that match that the page loaded");
+            logToAllure( "Check the parameters that match that the page loaded");
             return true;}
         else return false;
     }
 
-
     public void enterSearchParametersBu(String transportName, String brandCarName, String modelName, String regionName, String yearFrom,String yearTo,String priceFrom,String priceTo) {
        buRadioButton.click();
-        AllureLogger.logToAllure("Select 'B/U' radio button");
+      logToAllure("Select 'B/U' radio button");
       searchTransport(transportName);
       searchBrandCarBu(brandCarName);
       searchModelCarBu(modelName);
@@ -208,8 +197,7 @@ public class MainPageSearchBu {
       selectYear(yearFrom,yearTo);
       enterPrice(priceFrom,priceTo);
       submit.click();
-      AllureLogger.logToAllure("Click on submit button");
+      logToAllure("Click on submit button");
     }
-
 
 }

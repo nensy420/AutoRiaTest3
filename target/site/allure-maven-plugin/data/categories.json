@@ -1,1 +1,72 @@
-{ }
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 6894,
+    "maxDuration" : 6894,
+    "sumDuration" : 6894,
+    "start" : 1531831761201,
+    "stop" : 1531831768095,
+    "duration" : 6894
+  },
+  "children" : [ {
+    "uid" : "baa13aa7c2749a1e",
+    "name" : "Product defects",
+    "time" : {
+      "minDuration" : 6894,
+      "maxDuration" : 6894,
+      "sumDuration" : 6894,
+      "start" : 1531831761201,
+      "stop" : 1531831768095,
+      "duration" : 6894
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "f147baf62a2d7339",
+      "name" : " The results of search is not loaded expected [true] but found [false]",
+      "time" : {
+        "minDuration" : 6894,
+        "maxDuration" : 6894,
+        "sumDuration" : 6894,
+        "start" : 1531831761201,
+        "stop" : 1531831768095,
+        "duration" : 6894
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "bf63db82c4c3ad36",
+        "name" : "checkResultsOfSearchTestBu",
+        "time" : {
+          "start" : 1531831761201,
+          "stop" : 1531831768095,
+          "duration" : 6894
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}
