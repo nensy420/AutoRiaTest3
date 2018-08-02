@@ -71,6 +71,9 @@ public class MainPageSearchBu {
     @FindBy(xpath = "//input[@id='naRadioType']/following-sibling::label[@for='naRadioType']")
     private WebElement newRadioButton;
 
+    @FindBy(xpath = "//div[@class= 'definition-data']//following-sibling::li[contains(@class,'view-location')]")
+    private List<WebElement> locationResultList;
+
     private static final Logger log = LogManager.getLogger(MainPageSearchBu.class);
 
     private WebElement waitTime(WebElement element) {
@@ -200,4 +203,14 @@ public class MainPageSearchBu {
       logToAllure("Click on submit button");
     }
 
+    public    boolean resultsOfSearchCity(String regionName){
+        List<WebElement> listOfResults = locationResultList;
+        boolean result = false;
+        for (WebElement elm : listOfResults) {
+            waitTime(elm);
+            result = elm.getText().trim().equalsIgnoreCase(regionName);
+            if (!result) break;
+        }
+        return result;
+    }
 }

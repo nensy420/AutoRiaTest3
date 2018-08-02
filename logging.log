@@ -546,3 +546,502 @@
 2018-07-24 15:57:14 INFO  AuthorizationCheck:74 -  Get the message
 2018-07-24 15:57:14 INFO  TestsAutoRia:17 -  The registration was failed
 2018-07-24 15:57:16 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:34:30 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:34:31 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:34:31 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:34:32 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:34:33 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:34:34 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:34:34 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:34:34 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:34:34 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:34:34 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:34:37 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:34:39 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 15:34:41 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:36:18 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:36:18 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:36:18 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:36:19 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:36:20 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:36:21 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:36:21 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:36:21 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:36:21 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:36:21 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:36:24 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:36:25 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 15:36:27 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:37:43 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:37:43 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:37:43 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:37:44 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:37:45 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:37:46 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:37:46 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:37:46 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:37:47 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:37:47 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:37:49 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:37:51 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 15:37:52 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:39:51 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:39:52 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:39:52 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:39:53 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:39:54 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:39:54 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:39:54 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:39:55 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:39:55 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:39:55 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:39:58 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:39:59 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 15:40:01 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:41:17 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:41:18 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:41:18 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:41:19 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:41:20 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:41:21 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:41:21 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:41:21 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:41:21 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:41:21 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:41:24 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:41:26 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 15:41:30 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:45:49 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:45:49 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:45:49 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:45:50 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:45:51 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:45:52 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:45:52 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:45:52 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:45:52 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:45:52 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:45:53 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:45:56 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 15:45:58 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:46:47 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:46:48 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:46:48 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:46:49 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:46:50 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:46:51 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:46:51 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:46:51 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:46:51 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:46:51 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:46:54 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:46:55 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 15:46:57 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 15:48:16 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 15:48:17 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 15:48:17 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 15:48:18 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 15:48:19 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 15:48:20 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 15:48:20 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 15:48:20 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 15:48:20 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 15:48:20 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 15:48:23 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 15:48:25 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-30 15:48:26 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 16:11:38 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 16:11:39 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 16:11:39 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 16:11:40 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 16:11:41 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 16:11:42 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 16:11:42 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 16:11:42 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 16:11:42 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 16:11:42 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 16:11:45 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 16:29:02 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-30 16:29:21 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 16:29:21 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 16:29:22 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 16:29:22 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 16:29:23 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 16:29:24 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 16:29:24 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 16:29:25 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 16:29:25 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 16:29:25 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 16:29:28 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 16:29:29 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-30 16:29:30 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 16:32:14 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 16:32:14 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 16:32:14 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 16:32:15 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 16:32:16 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 16:32:17 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 16:32:17 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 16:32:17 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 16:32:17 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 16:32:17 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 16:32:20 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 16:32:21 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-30 16:32:23 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-30 16:35:17 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-30 16:35:18 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-30 16:35:18 INFO  MainPageSearchBu:170 - Select transport
+2018-07-30 16:35:19 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-30 16:35:20 INFO  MainPageSearchBu:170 - Select car model
+2018-07-30 16:35:20 INFO  MainPageSearchBu:170 - Select region
+2018-07-30 16:35:21 INFO  MainPageSearchBu:170 - Select year from
+2018-07-30 16:35:21 INFO  MainPageSearchBu:170 - Select year to
+2018-07-30 16:35:21 INFO  MainPageSearchBu:170 - Select price from
+2018-07-30 16:35:21 INFO  MainPageSearchBu:170 - Select price to
+2018-07-30 16:35:24 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-30 16:35:25 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-30 16:35:26 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:05:27 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:05:29 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:05:29 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:05:31 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:05:33 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:05:34 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:05:34 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:05:35 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:05:35 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:05:35 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:05:36 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:11:30 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:11:30 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:11:30 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:11:31 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:11:32 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:11:33 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:11:33 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:11:33 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:11:33 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:11:33 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:11:36 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:11:36 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 10:11:37 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:14:02 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:14:03 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:14:03 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:14:04 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:14:05 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:14:06 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:14:06 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:14:06 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:14:06 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:14:06 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:14:10 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:14:11 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 10:14:13 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:18:21 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:18:22 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:18:22 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:18:23 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:18:24 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:18:25 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:18:25 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:18:25 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:18:25 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:18:25 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:18:28 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:18:29 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 10:18:31 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:23:33 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:23:34 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:23:34 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:23:35 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:23:36 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:23:36 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:23:37 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:23:37 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:23:37 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:23:37 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:23:40 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:23:40 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 10:23:44 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:24:58 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:24:58 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:24:59 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:24:59 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:25:00 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:25:01 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:25:01 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:25:02 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:25:02 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:25:02 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:25:04 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:25:05 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 10:25:07 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:25:59 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:25:59 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:25:59 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:26:00 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:26:01 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:26:02 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:26:02 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:26:02 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:26:02 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:26:02 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:26:05 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:26:06 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 10:26:08 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:26:33 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:26:34 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:26:34 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:26:35 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:26:36 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:26:36 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:26:37 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:26:37 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:26:37 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:26:37 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:26:40 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:26:40 INFO  ConfigForTests:22 - Screenshot have been added to Allure Report.
+2018-07-31 10:26:42 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 10:28:58 INFO  ConfigForTests:22 -  Launch Auto Ria page
+2018-07-31 10:28:59 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 10:28:59 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 10:29:00 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 10:29:01 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 10:29:01 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 10:29:02 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 10:29:02 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 10:29:02 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 10:29:02 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 10:29:05 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 10:29:06 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 10:29:07 INFO  ConfigForTests:22 - Close Auto Ria
+2018-07-31 15:19:02 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-07-31 15:19:03 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-07-31 15:21:52 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-07-31 15:21:53 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-07-31 15:29:14 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-07-31 15:31:59 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-07-31 15:31:59 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-07-31 15:31:59 INFO  MainPageSearchBu:170 - Select transport
+2018-07-31 15:32:00 INFO  MainPageSearchBu:170 - Select car brand
+2018-07-31 15:32:01 INFO  MainPageSearchBu:170 - Select car model
+2018-07-31 15:32:02 INFO  MainPageSearchBu:170 - Select region
+2018-07-31 15:32:02 INFO  MainPageSearchBu:170 - Select year from
+2018-07-31 15:32:02 INFO  MainPageSearchBu:170 - Select year to
+2018-07-31 15:32:02 INFO  MainPageSearchBu:170 - Select price from
+2018-07-31 15:32:03 INFO  MainPageSearchBu:170 - Select price to
+2018-07-31 15:32:05 INFO  MainPageSearchBu:170 - Click on submit button
+2018-07-31 15:32:06 INFO  TestsAutoRia:17 -  The results of search is loaded correctly
+2018-07-31 15:32:10 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-01 12:04:47 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:04:48 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-01 12:04:48 INFO  MainPageSearchBu:170 - Select transport
+2018-08-01 12:04:48 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-01 12:04:49 INFO  MainPageSearchBu:170 - Select car model
+2018-08-01 12:04:49 INFO  MainPageSearchBu:170 - Select region
+2018-08-01 12:04:49 INFO  MainPageSearchBu:170 - Select year from
+2018-08-01 12:04:49 INFO  MainPageSearchBu:170 - Select year to
+2018-08-01 12:04:49 INFO  MainPageSearchBu:170 - Select price from
+2018-08-01 12:04:49 INFO  MainPageSearchBu:170 - Select price to
+2018-08-01 12:04:50 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-01 12:04:50 INFO  ConfigForTests:29 - Screenshot have been added to Allure Report.
+2018-08-01 12:05:49 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:05:49 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-01 12:05:50 INFO  MainPageSearchBu:170 - Select transport
+2018-08-01 12:05:50 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-01 12:05:50 INFO  MainPageSearchBu:170 - Select car model
+2018-08-01 12:05:51 INFO  MainPageSearchBu:170 - Select region
+2018-08-01 12:05:51 INFO  MainPageSearchBu:170 - Select year from
+2018-08-01 12:05:51 INFO  MainPageSearchBu:170 - Select year to
+2018-08-01 12:05:51 INFO  MainPageSearchBu:170 - Select price from
+2018-08-01 12:05:51 INFO  MainPageSearchBu:170 - Select price to
+2018-08-01 12:05:51 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-01 12:05:51 INFO  ConfigForTests:29 - Screenshot have been added to Allure Report.
+2018-08-01 12:05:55 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-01 12:06:01 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:06:01 INFO  MainPageHeadersLinks:40 - Click on Ria.Com link
+2018-08-01 12:06:01 INFO  MainPageHeadersLinks:40 - Move to a new window
+2018-08-01 12:06:03 INFO  MainPageHeadersLinks:40 - Close a new window
+2018-08-01 12:06:03 INFO  MainPageHeadersLinks:40 - Move to a parent window
+2018-08-01 12:06:03 INFO  TestsAutoRia:18 -  The Ria.come page was successfully load after clicking on link
+2018-08-01 12:06:04 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-01 12:06:10 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:06:10 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-01 12:06:10 INFO  MainPageSearchBu:170 - Select transport
+2018-08-01 12:06:10 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-01 12:06:11 INFO  MainPageSearchBu:170 - Select car model
+2018-08-01 12:06:11 INFO  MainPageSearchBu:170 - Select region
+2018-08-01 12:06:11 INFO  MainPageSearchBu:170 - Select year from
+2018-08-01 12:06:11 INFO  MainPageSearchBu:170 - Select year to
+2018-08-01 12:06:11 INFO  MainPageSearchBu:170 - Select price from
+2018-08-01 12:06:11 INFO  MainPageSearchBu:170 - Select price to
+2018-08-01 12:06:12 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-01 12:06:15 INFO  TestsAutoRia:18 -  The results of search is loaded correctly
+2018-08-01 12:06:15 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-01 12:06:21 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:06:21 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-01 12:06:21 INFO  MainPageSearchBu:170 - Select transport
+2018-08-01 12:06:22 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-01 12:06:22 INFO  MainPageSearchBu:170 - Select car model
+2018-08-01 12:06:22 INFO  MainPageSearchBu:170 - Select region
+2018-08-01 12:06:22 INFO  MainPageSearchBu:170 - Select year from
+2018-08-01 12:06:22 INFO  MainPageSearchBu:170 - Select year to
+2018-08-01 12:06:23 INFO  MainPageSearchBu:170 - Select price from
+2018-08-01 12:06:23 INFO  MainPageSearchBu:170 - Select price to
+2018-08-01 12:06:23 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-01 12:06:26 INFO  MainPageSearchBu:170 - Get actual title
+2018-08-01 12:06:26 INFO  ConfigForTests:29 - Screenshot have been added to Allure Report.
+2018-08-01 12:06:27 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-01 12:06:34 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:06:34 INFO  MainPageSearchNewCars:67 - Select 'New Auto' radio button
+2018-08-01 12:06:34 INFO  MainPageSearchNewCars:67 - Select transport
+2018-08-01 12:06:34 INFO  MainPageSearchNewCars:67 - Select car brand
+2018-08-01 12:06:35 INFO  MainPageSearchNewCars:67 - Select car model
+2018-08-01 12:06:35 INFO  MainPageSearchNewCars:67 - Select region
+2018-08-01 12:06:35 INFO  MainPageSearchNewCars:67 - Select year from
+2018-08-01 12:06:35 INFO  MainPageSearchNewCars:67 - Select year to
+2018-08-01 12:06:35 INFO  MainPageSearchNewCars:67 - Select price from
+2018-08-01 12:06:35 INFO  MainPageSearchNewCars:67 - Select price to
+2018-08-01 12:06:36 INFO  MainPageSearchNewCars:67 - Click on submit button
+2018-08-01 12:06:36 INFO  MainPageSearchNewCars:67 - Get actual title
+2018-08-01 12:06:36 INFO  TestsAutoRia:18 -  The results of search is loaded correctly
+2018-08-01 12:06:37 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-01 12:06:47 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:06:47 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-01 12:06:47 INFO  MainPageSearchBu:170 - Select transport
+2018-08-01 12:06:48 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-01 12:06:48 INFO  MainPageSearchBu:170 - Select car model
+2018-08-01 12:06:48 INFO  MainPageSearchBu:170 - Select region
+2018-08-01 12:06:49 INFO  MainPageSearchBu:170 - Select year from
+2018-08-01 12:06:49 INFO  MainPageSearchBu:170 - Select year to
+2018-08-01 12:06:49 INFO  MainPageSearchBu:170 - Select price from
+2018-08-01 12:06:49 INFO  MainPageSearchBu:170 - Select price to
+2018-08-01 12:06:49 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-01 12:06:51 INFO  MainPageSearchBu:170 - Get the message
+2018-08-01 12:06:51 INFO  TestsAutoRia:18 -  The error message is displayed
+2018-08-01 12:06:52 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-01 12:06:58 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:06:58 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-01 12:06:58 INFO  MainPageSearchBu:170 - Select transport
+2018-08-01 12:06:58 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-01 12:06:59 INFO  MainPageSearchBu:170 - Select car model
+2018-08-01 12:07:00 INFO  MainPageSearchBu:170 - Select region
+2018-08-01 12:07:00 INFO  MainPageSearchBu:170 - Select year from
+2018-08-01 12:07:00 INFO  MainPageSearchBu:170 - Select year to
+2018-08-01 12:07:00 INFO  MainPageSearchBu:170 - Select price from
+2018-08-01 12:07:00 INFO  MainPageSearchBu:170 - Select price to
+2018-08-01 12:07:00 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-01 12:07:03 INFO  MainPageSearchBu:170 - Get the message
+2018-08-01 12:07:03 INFO  TestsAutoRia:18 -  The error message is displayed
+2018-08-01 12:07:03 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-01 12:07:11 INFO  ConfigForTests:29 -  Launch Auto Ria page
+2018-08-01 12:07:14 INFO  AuthorizationCheck:74 - Click on enter to
+2018-08-01 12:07:24 INFO  AuthorizationCheck:74 - Switch to frame
+2018-08-01 12:07:24 INFO  AuthorizationCheck:74 - Click on registration link
+2018-08-01 12:07:24 INFO  AuthorizationCheck:74 - Input the telephone number
+2018-08-01 12:07:24 INFO  AuthorizationCheck:74 -  Click on the continue button
+2018-08-01 12:07:25 INFO  AuthorizationCheck:74 -  Get the message
+2018-08-01 12:07:25 INFO  TestsAutoRia:18 -  The registration was failed
+2018-08-01 12:07:26 INFO  ConfigForTests:29 - Close Auto Ria
+2018-08-02 11:55:12 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:55:13 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-02 11:55:13 INFO  MainPageSearchBu:170 - Select transport
+2018-08-02 11:55:14 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-02 11:55:15 INFO  MainPageSearchBu:170 - Select car model
+2018-08-02 11:55:15 INFO  MainPageSearchBu:170 - Select region
+2018-08-02 11:55:16 INFO  MainPageSearchBu:170 - Select year from
+2018-08-02 11:55:16 INFO  MainPageSearchBu:170 - Select year to
+2018-08-02 11:55:16 INFO  MainPageSearchBu:170 - Select price from
+2018-08-02 11:55:16 INFO  MainPageSearchBu:170 - Select price to
+2018-08-02 11:55:19 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-02 11:55:20 INFO  MainPageSearchBu:170 - Get actual title
+2018-08-02 11:55:20 INFO  MainPageSearchBu:170 - Get current URL
+2018-08-02 11:55:20 INFO  MainPageSearchBu:170 - Check the parameters that match that the page loaded
+2018-08-02 11:55:20 INFO  TestsAutoRia:18 -  The results of search is loaded correctly
+2018-08-02 11:55:23 INFO  ConfigForTests:28 - Close Auto Ria
+2018-08-02 11:55:30 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:55:30 INFO  MainPageHeadersLinks:40 - Click on Ria.Com link
+2018-08-02 11:55:31 INFO  MainPageHeadersLinks:40 - Move to a new window
+2018-08-02 11:55:31 INFO  MainPageHeadersLinks:40 - Close a new window
+2018-08-02 11:55:31 INFO  MainPageHeadersLinks:40 - Move to a parent window
+2018-08-02 11:55:31 INFO  TestsAutoRia:18 -  The Ria.come page was successfully load after clicking on link
+2018-08-02 11:55:34 INFO  ConfigForTests:28 - Close Auto Ria
+2018-08-02 11:55:43 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:55:43 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-02 11:55:44 INFO  MainPageSearchBu:170 - Select transport
+2018-08-02 11:55:44 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-02 11:55:45 INFO  MainPageSearchBu:170 - Select car model
+2018-08-02 11:55:46 INFO  MainPageSearchBu:170 - Select region
+2018-08-02 11:55:46 INFO  MainPageSearchBu:170 - Select year from
+2018-08-02 11:55:46 INFO  MainPageSearchBu:170 - Select year to
+2018-08-02 11:55:46 INFO  MainPageSearchBu:170 - Select price from
+2018-08-02 11:55:46 INFO  MainPageSearchBu:170 - Select price to
+2018-08-02 11:55:49 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-02 11:55:50 INFO  TestsAutoRia:18 -  The results of search is loaded correctly
+2018-08-02 11:55:52 INFO  ConfigForTests:28 - Close Auto Ria
+2018-08-02 11:55:59 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:55:59 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-02 11:55:59 INFO  MainPageSearchBu:170 - Select transport
+2018-08-02 11:56:00 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-02 11:56:00 INFO  MainPageSearchBu:170 - Select car model
+2018-08-02 11:56:01 INFO  MainPageSearchBu:170 - Select region
+2018-08-02 11:56:01 INFO  MainPageSearchBu:170 - Select year from
+2018-08-02 11:56:02 INFO  MainPageSearchBu:170 - Select year to
+2018-08-02 11:56:02 INFO  MainPageSearchBu:170 - Select price from
+2018-08-02 11:56:02 INFO  MainPageSearchBu:170 - Select price to
+2018-08-02 11:56:04 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-02 11:56:05 INFO  MainPageSearchBu:170 - Get actual title
+2018-08-02 11:56:05 INFO  ConfigForTests:28 - Screenshot have been added to Allure Report.
+2018-08-02 11:56:08 INFO  ConfigForTests:28 - Close Auto Ria
+2018-08-02 11:56:15 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:56:15 INFO  MainPageSearchNewCars:67 - Select 'New Auto' radio button
+2018-08-02 11:56:15 INFO  MainPageSearchNewCars:67 - Select transport
+2018-08-02 11:56:16 INFO  MainPageSearchNewCars:67 - Select car brand
+2018-08-02 11:56:16 INFO  MainPageSearchNewCars:67 - Select car model
+2018-08-02 11:56:17 INFO  MainPageSearchNewCars:67 - Select region
+2018-08-02 11:56:17 INFO  MainPageSearchNewCars:67 - Select year from
+2018-08-02 11:56:17 INFO  MainPageSearchNewCars:67 - Select year to
+2018-08-02 11:56:17 INFO  MainPageSearchNewCars:67 - Select price from
+2018-08-02 11:56:17 INFO  MainPageSearchNewCars:67 - Select price to
+2018-08-02 11:56:19 INFO  MainPageSearchNewCars:67 - Click on submit button
+2018-08-02 11:56:19 INFO  MainPageSearchNewCars:67 - Get actual title
+2018-08-02 11:56:19 INFO  TestsAutoRia:18 -  The results of search is loaded correctly
+2018-08-02 11:56:21 INFO  ConfigForTests:28 - Close Auto Ria
+2018-08-02 11:56:27 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:56:28 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-02 11:56:28 INFO  MainPageSearchBu:170 - Select transport
+2018-08-02 11:56:28 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-02 11:56:29 INFO  MainPageSearchBu:170 - Select car model
+2018-08-02 11:56:30 INFO  MainPageSearchBu:170 - Select region
+2018-08-02 11:56:30 INFO  MainPageSearchBu:170 - Select year from
+2018-08-02 11:56:30 INFO  MainPageSearchBu:170 - Select year to
+2018-08-02 11:56:30 INFO  MainPageSearchBu:170 - Select price from
+2018-08-02 11:56:30 INFO  MainPageSearchBu:170 - Select price to
+2018-08-02 11:56:32 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-02 11:56:33 INFO  MainPageSearchBu:170 - Get the message
+2018-08-02 11:56:33 INFO  TestsAutoRia:18 -  The error message is displayed
+2018-08-02 11:56:35 INFO  ConfigForTests:28 - Close Auto Ria
+2018-08-02 11:56:42 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:56:42 INFO  MainPageSearchBu:170 - Select 'B/U' radio button
+2018-08-02 11:56:42 INFO  MainPageSearchBu:170 - Select transport
+2018-08-02 11:56:43 INFO  MainPageSearchBu:170 - Select car brand
+2018-08-02 11:56:44 INFO  MainPageSearchBu:170 - Select car model
+2018-08-02 11:56:45 INFO  MainPageSearchBu:170 - Select region
+2018-08-02 11:56:45 INFO  MainPageSearchBu:170 - Select year from
+2018-08-02 11:56:46 INFO  MainPageSearchBu:170 - Select year to
+2018-08-02 11:56:46 INFO  MainPageSearchBu:170 - Select price from
+2018-08-02 11:56:46 INFO  MainPageSearchBu:170 - Select price to
+2018-08-02 11:56:48 INFO  MainPageSearchBu:170 - Click on submit button
+2018-08-02 11:56:48 INFO  MainPageSearchBu:170 - Get the message
+2018-08-02 11:56:48 INFO  TestsAutoRia:18 -  The error message is displayed
+2018-08-02 11:56:50 INFO  ConfigForTests:28 - Close Auto Ria
+2018-08-02 11:56:57 INFO  ConfigForTests:28 -  Launch Auto Ria page
+2018-08-02 11:56:59 INFO  AuthorizationCheck:74 - Click on enter to
+2018-08-02 11:57:09 INFO  AuthorizationCheck:74 - Switch to frame
+2018-08-02 11:57:09 INFO  AuthorizationCheck:74 - Click on registration link
+2018-08-02 11:57:09 INFO  AuthorizationCheck:74 - Input the telephone number
+2018-08-02 11:57:10 INFO  AuthorizationCheck:74 -  Click on the continue button
+2018-08-02 11:57:10 INFO  AuthorizationCheck:74 -  Get the message
+2018-08-02 11:57:10 INFO  TestsAutoRia:18 -  The registration was failed
+2018-08-02 11:57:13 INFO  ConfigForTests:28 - Close Auto Ria

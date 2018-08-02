@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import static com.ria.browsers.DriverManager.*;
 
 
 public class TestsAutoRia extends ConfigForTests {
@@ -20,16 +21,16 @@ public class TestsAutoRia extends ConfigForTests {
     @Test(dataProvider = "validDataOfSearch",dataProviderClass = Data.class)
     public void checkDownloadPageTest(String transportName, String brandCarName, String modelName, String regionName, String yearFrom, String yearTo, String priceFrom, String priceTo)
     {
-        MainPageSearchBu search = new MainPageSearchBu(driver);
+        MainPageSearchBu search = new MainPageSearchBu(getDriver());
         search.enterSearchParametersBu(transportName, brandCarName, modelName,  regionName,  yearFrom, yearTo, priceFrom, priceTo);
-        Assert.assertTrue(search.checkIfTHePageDownload("Audi Q7","https://auto.ria.com/search/",driver.findElement(By.xpath("//div[@class='app-content']//following-sibling::div[@id='topFilter']/a"))),"ERROR:The page was not load");
+        Assert.assertTrue(search.checkIfTHePageDownload("Audi Q7","https://auto.ria.com/search/",getDriver().findElement(By.xpath("//div[@class='app-content']//following-sibling::div[@id='topFilter']/a"))),"ERROR:The page was not load");
         logToAllure(" The results of search is loaded correctly");
     }
 
     @Test(dataProvider = "validDataOfSearch",dataProviderClass = Data.class)
     public void checkResultsOfSearchTestBu(String transportName, String brandCarName, String modelName, String regionName, String yearFrom,String yearTo,String priceFrom,String priceTo)
     {
-        MainPageSearchBu search = new MainPageSearchBu(driver);
+        MainPageSearchBu search = new MainPageSearchBu(getDriver());
         search.enterSearchParametersBu(transportName, brandCarName, modelName,  regionName,  yearFrom, yearTo, priceFrom, priceTo);
         String expectedTitle = "Audi Q7 ghj";
         Assert.assertTrue(search.resultsOfSearch().contains(expectedTitle), " The results of search is not loaded");
@@ -39,7 +40,7 @@ public class TestsAutoRia extends ConfigForTests {
     @Test(dataProvider = "invalidDataOfSearch",dataProviderClass = Data.class)
     public void invalidDataSearchTest (String transportName, String brandCarName, String modelName, String regionName, String yearFrom,String yearTo,String priceFrom,String priceTo)
     {
-        MainPageSearchBu search = new MainPageSearchBu(driver);
+        MainPageSearchBu search = new MainPageSearchBu(getDriver());
         search.enterSearchParametersBu(transportName, brandCarName, modelName,  regionName,  yearFrom, yearTo, priceFrom, priceTo);
         String expectedErrorMessage ="Объявлений не найдено";
         String actualErrorMessage = search.errorMessage();
@@ -50,7 +51,7 @@ public class TestsAutoRia extends ConfigForTests {
 
     @Test()
     public void registrationWithInvalidDataTest() {
-        AuthorizationCheck check = new AuthorizationCheck(driver);
+        AuthorizationCheck check = new AuthorizationCheck(getDriver());
         String expectedErrorMessage = "неверный  мобильный номер телефона";
         check.registration("236lo659");
         String actualErrorMessage = check.getErrorMessageRegistration();
@@ -60,7 +61,7 @@ public class TestsAutoRia extends ConfigForTests {
 
     @Test()
     public void checkResultsOfSearchTestNew() {
-        MainPageSearchNewCars search = new MainPageSearchNewCars(driver);
+        MainPageSearchNewCars search = new MainPageSearchNewCars(getDriver());
         search.enterSearchParametersNew("Легковые", "BMW", "X5", "Киев", "2010", "2017", "2000", "100000");
         String expectedResult = "newauto";
         Assert.assertTrue(search.resultsOfSearch().contains(expectedResult), " The search page was not load");
@@ -69,12 +70,20 @@ public class TestsAutoRia extends ConfigForTests {
 
     @Test()
     public void checkHeadersLink(){
-        MainPageHeadersLinks link = new MainPageHeadersLinks(driver);
+        MainPageHeadersLinks link = new MainPageHeadersLinks(getDriver());
         String expectedTitle = "RIA.com ™ — доска бесплатных частных объявлений Украины";
         Assert.assertTrue(link.checkTheLoadPage().contains(expectedTitle), " The Ria.come page not loaded");
         logToAllure(" The Ria.come page was successfully load after clicking on link");
     }
 
 
+    @Test(dataProvider = "validDataOfSearch",dataProviderClass = Data.class)
+    public void checkResultsOfSearchCityTestBu(String transportName, String brandCarName, String modelName, String regionName, String yearFrom,String yearTo,String priceFrom,String priceTo)
+    {
+        MainPageSearchBu search = new MainPageSearchBu(getDriver());
+        search.enterSearchParametersBu(transportName, brandCarName, modelName,  regionName,  yearFrom, yearTo, priceFrom, priceTo);
+        Assert.assertTrue(search.resultsOfSearchCity(regionName), " The results of search is not loaded");
+        logToAllure(" The results of search is loaded correctly");
+    }
  }
 
